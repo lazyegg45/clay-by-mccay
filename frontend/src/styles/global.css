@@ -37,7 +37,7 @@ a {
 
 h1, h2, h3, h4 {
   font-family: var(--font-header);
-  font-weight: 600;
+  font-weight: 800;
   color: var(--color-ink);
   margin: 0 0 0.5em;
 }
@@ -74,7 +74,6 @@ main {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  font-family: var(--font-header);
   font-weight: 600;
   font-size: 1rem;
   border-radius: 999px;
@@ -122,7 +121,7 @@ main {
   top: 0;
   z-index: 50;
   background: var(--color-bg);
-  border-bottom: 1px solid rgba(58, 52, 44, 0.1);
+  border-bottom: 2px solid var(--color-blush);
 }
 
 .site-header__bar {
@@ -134,7 +133,7 @@ main {
 
 .site-header__logo {
   font-family: var(--font-header);
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.5rem;
   color: var(--color-primary);
   letter-spacing: 0.01em;
@@ -147,8 +146,7 @@ main {
 }
 
 .site-header__nav a {
-  font-family: var(--font-header);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
   color: var(--color-ink);
   padding-bottom: 0.25rem;
@@ -233,8 +231,7 @@ main {
 }
 
 .site-header__mobile-nav a {
-  font-family: var(--font-header);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.05rem;
   padding: 0.6rem 0;
   color: var(--color-ink);
@@ -259,7 +256,7 @@ main {
 /* ---------- Footer ---------- */
 
 .site-footer {
-  background: var(--color-vanilla);
+  background: var(--color-blush);
   margin-top: 4rem;
 }
 
@@ -272,7 +269,7 @@ main {
 
 .site-footer__brand {
   font-family: var(--font-header);
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.35rem;
   color: var(--color-primary);
 }
@@ -285,10 +282,12 @@ main {
 }
 
 .site-footer__col h4 {
+  font-family: var(--font-body);
+  font-weight: 600;
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--color-cypress);
+  color: var(--color-ink-muted);
   margin-bottom: 0.75rem;
 }
 
@@ -305,10 +304,10 @@ main {
 }
 
 .site-footer__bottom {
-  border-top: 1px solid rgba(58, 52, 44, 0.15);
+  border-top: 2px solid rgba(237, 85, 52, 0.15);
   padding-top: 1.25rem;
   font-size: 0.85rem;
-  color: var(--color-cypress);
+  color: var(--color-ink-muted);
 }
 
 /* ---------- Hero / Banner ---------- */
@@ -327,7 +326,7 @@ main {
   max-width: 40rem;
   margin: 0 auto 1.5rem;
   font-size: 1.1rem;
-  color: var(--color-cypress);
+  color: var(--color-ink-muted);
 }
 
 .hero__actions {
@@ -338,8 +337,8 @@ main {
 }
 
 .drop-banner {
-  background: var(--color-cypress);
-  color: var(--color-bg);
+  background: var(--color-primary);
+  color: var(--color-white);
   border-radius: var(--radius-lg);
   padding: 1.5rem 2rem;
   display: flex;
@@ -351,30 +350,31 @@ main {
 }
 
 .drop-banner__label {
-  font-family: var(--font-header);
+  font-weight: 600;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--color-vanilla);
+  color: var(--color-blush);
   margin-bottom: 0.25rem;
 }
 
 .drop-banner__title {
   font-family: var(--font-header);
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.35rem;
   margin: 0;
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 
 .drop-banner .btn-outline {
-  border-color: var(--color-bg);
-  color: var(--color-bg);
+  border-color: var(--color-white);
+  color: var(--color-white);
 }
 
 .drop-banner .btn-outline:hover {
-  border-color: var(--color-blush);
-  color: var(--color-blush);
+  background: var(--color-white);
+  border-color: var(--color-white);
+  color: var(--color-primary);
 }
 
 /* ---------- Sections ---------- */
@@ -398,8 +398,7 @@ main {
 }
 
 .section__heading a {
-  font-family: var(--font-header);
-  font-weight: 500;
+  font-weight: 600;
   color: var(--color-primary);
 }
 
@@ -413,12 +412,11 @@ main {
 }
 
 .filter-pill {
-  font-family: var(--font-header);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0.9rem;
   padding: 0.5rem 1.1rem;
   border-radius: 999px;
-  border: 2px solid var(--color-vanilla);
+  border: 2px solid var(--color-blush);
   background: transparent;
   color: var(--color-ink);
   cursor: pointer;
@@ -426,7 +424,7 @@ main {
 }
 
 .filter-pill:hover {
-  border-color: var(--color-moss);
+  border-color: var(--color-primary);
 }
 
 .filter-pill.active {
@@ -455,17 +453,15 @@ main {
   aspect-ratio: 1 / 1;
   border-radius: var(--radius-md);
   overflow: hidden;
-  background: var(--color-vanilla);
+  background: var(--color-blush);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .product-card__image span {
-  font-family: var(--font-header);
   font-weight: 600;
-  color: var(--color-cypress);
-  opacity: 0.55;
+  color: var(--color-ink-muted);
   font-size: 0.95rem;
   padding: 0 1rem;
   text-align: center;
@@ -476,10 +472,9 @@ main {
   top: 0.75rem;
   left: 0.75rem;
   background: var(--color-ink);
-  color: var(--color-bg);
-  font-family: var(--font-header);
+  color: var(--color-white);
   font-size: 0.7rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding: 0.3rem 0.6rem;
@@ -492,21 +487,21 @@ main {
 
 .product-card__name {
   font-family: var(--font-header);
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.05rem;
   margin: 0;
 }
 
 .product-card__category {
   font-size: 0.8rem;
-  color: var(--color-moss);
+  color: var(--color-ink-muted);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
 .product-card__price {
   font-family: var(--font-header);
-  font-weight: 600;
+  font-weight: 800;
   color: var(--color-primary);
 }
 
@@ -528,22 +523,20 @@ main {
 .product-detail__image {
   aspect-ratio: 1 / 1;
   border-radius: var(--radius-lg);
-  background: var(--color-vanilla);
+  background: var(--color-blush);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .product-detail__image span {
-  font-family: var(--font-header);
   font-weight: 600;
-  color: var(--color-cypress);
-  opacity: 0.5;
+  color: var(--color-ink-muted);
 }
 
 .product-detail__category {
   font-size: 0.85rem;
-  color: var(--color-moss);
+  color: var(--color-ink-muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 0.25rem;
@@ -551,6 +544,7 @@ main {
 
 .product-detail__price {
   font-family: var(--font-header);
+  font-weight: 800;
   font-size: 1.5rem;
   color: var(--color-primary);
   margin-bottom: 1rem;
@@ -560,9 +554,8 @@ main {
   display: inline-block;
   background: var(--color-blush);
   color: var(--color-ink);
-  font-family: var(--font-header);
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: 0.3rem 0.7rem;
@@ -572,7 +565,7 @@ main {
 
 .badge-inline.sold-out {
   background: var(--color-ink);
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 
 .qty-row {
@@ -585,7 +578,7 @@ main {
 .qty-control {
   display: inline-flex;
   align-items: center;
-  border: 2px solid var(--color-vanilla);
+  border: 2px solid var(--color-blush);
   border-radius: 999px;
   overflow: hidden;
 }
@@ -629,38 +622,37 @@ main {
   gap: 1rem;
   align-items: center;
   padding: 1.25rem 0;
-  border-bottom: 1px solid var(--color-vanilla);
+  border-bottom: 2px solid var(--color-blush);
 }
 
 .cart-item__image {
   width: 80px;
   height: 80px;
   border-radius: var(--radius-sm);
-  background: var(--color-vanilla);
+  background: var(--color-blush);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .cart-item__image span {
-  font-family: var(--font-header);
   font-size: 0.65rem;
-  color: var(--color-cypress);
-  opacity: 0.6;
+  font-weight: 600;
+  color: var(--color-ink-muted);
   text-align: center;
   padding: 0 0.25rem;
 }
 
 .cart-item__name {
   font-family: var(--font-header);
-  font-weight: 600;
+  font-weight: 800;
   margin: 0 0 0.25rem;
 }
 
 .cart-item__remove {
   background: none;
   border: none;
-  color: var(--color-cypress);
+  color: var(--color-ink-muted);
   font-size: 0.85rem;
   cursor: pointer;
   padding: 0;
@@ -671,14 +663,14 @@ main {
 .cart-item__totals {
   text-align: right;
   font-family: var(--font-header);
-  font-weight: 600;
+  font-weight: 800;
   color: var(--color-primary);
 }
 
 .cart-summary {
   margin-top: 2rem;
   padding: 1.5rem;
-  background: var(--color-vanilla);
+  background: var(--color-blush);
   border-radius: var(--radius-md);
   display: flex;
   flex-direction: column;
@@ -691,14 +683,14 @@ main {
   display: flex;
   justify-content: space-between;
   font-family: var(--font-header);
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.1rem;
 }
 
 .empty-state {
   text-align: center;
   padding: 4rem 1rem;
-  color: var(--color-cypress);
+  color: var(--color-ink-muted);
 }
 
 /* ---------- About / Contact ---------- */
@@ -730,10 +722,8 @@ main {
 }
 
 .about-image span {
-  font-family: var(--font-header);
   font-weight: 600;
-  color: var(--color-ink);
-  opacity: 0.5;
+  color: var(--color-ink-muted);
 }
 
 @media (min-width: 760px) {
@@ -750,7 +740,7 @@ main {
 }
 
 .contact-card {
-  background: var(--color-vanilla);
+  background: var(--color-blush);
   border-radius: var(--radius-md);
   padding: 1.75rem;
 }
@@ -766,8 +756,7 @@ main {
 }
 
 .contact-form label {
-  font-family: var(--font-header);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0.9rem;
   display: flex;
   flex-direction: column;
@@ -780,7 +769,7 @@ main {
   font-size: 1rem;
   padding: 0.7rem 0.9rem;
   border-radius: var(--radius-sm);
-  border: 2px solid var(--color-vanilla);
+  border: 2px solid var(--color-blush);
   background: var(--color-white);
   color: var(--color-ink);
 }
