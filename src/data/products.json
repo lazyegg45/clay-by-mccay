@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "Ceramic Mug",
+    "price": 24,
+    "description": "Handcrafted ceramic mug"
+  },
+  {
+    "id": "2",
+    "name": "Serving Bowl",
+    "price": 36,
+    "description": "Stoneware serving bowl"
+  }
+]
