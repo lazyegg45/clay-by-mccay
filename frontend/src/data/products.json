@@ -4,71 +4,109 @@
     "name": "Coral Ceramic Mug",
     "category": "Mugs",
     "price": 28,
-    "description": "A hand-thrown stoneware mug glazed in a warm coral-pink finish. Holds 12oz, microwave and dishwasher safe.",
+    "description": "Placeholder copy — a hand-thrown stoneware mug glazed in a warm coral-pink finish. Holds 12oz, microwave and dishwasher safe.",
     "inStock": true,
-    "featured": true
+    "featured": true,
+    "image": "IMG_3490.png"
   },
   {
     "id": "2",
     "name": "Cypress Serving Bowl",
     "category": "Dishes",
     "price": 42,
-    "description": "A wide stoneware serving bowl in a deep cypress green glaze, perfect for salads or fruit.",
+    "description": "Placeholder copy — a wide stoneware serving bowl in a deep cypress green glaze, perfect for salads or fruit.",
     "inStock": true,
-    "featured": true
+    "featured": true,
+    "image": "IMG_4362.png"
   },
   {
     "id": "3",
     "name": "Vanilla Bud Vase",
     "category": "Bottles",
     "price": 32,
-    "description": "A slim bud vase in a warm vanilla glaze, hand-thrown and finished with a satin surface.",
+    "description": "Placeholder copy — a slim bud vase in a warm vanilla glaze, hand-thrown and finished with a satin surface.",
     "inStock": false,
-    "featured": true
+    "featured": true,
+    "image": "IMG_5194.png"
   },
   {
     "id": "4",
     "name": "Moss Speckled Mug",
     "category": "Mugs",
     "price": 28,
-    "description": "A speckled stoneware mug in muted moss, with a comfortable pulled handle.",
+    "description": "Placeholder copy — a speckled stoneware mug in muted moss, with a comfortable pulled handle.",
     "inStock": true,
-    "featured": false
+    "featured": false,
+    "image": "IMG_5258.png"
   },
   {
     "id": "5",
     "name": "Blush Pasta Bowl",
     "category": "Dishes",
     "price": 34,
-    "description": "A deep pasta bowl with a soft blush interior and natural stoneware exterior.",
+    "description": "Placeholder copy — a deep pasta bowl with a soft blush interior and natural stoneware exterior.",
     "inStock": true,
-    "featured": true
+    "featured": true,
+    "image": "IMG_5262.png"
   },
   {
     "id": "6",
     "name": "Ink Carafe",
     "category": "Bottles",
     "price": 48,
-    "description": "A tall water carafe in a near-black ink glaze with a hand-carved pouring lip.",
+    "description": "Placeholder copy — a tall water carafe in a near-black ink glaze with a hand-carved pouring lip.",
     "inStock": false,
-    "featured": false
+    "featured": false,
+    "image": "IMG_5279.png"
   },
   {
     "id": "7",
     "name": "Cream Side Plate Set",
     "category": "Dishes",
     "price": 38,
-    "description": "Set of two side plates in an unglazed cream finish, great for pairing with any drop.",
+    "description": "Placeholder copy — set of two side plates in an unglazed cream finish, great for pairing with any drop.",
     "inStock": true,
-    "featured": false
+    "featured": false,
+    "image": "IMG_6258.png"
   },
   {
     "id": "8",
     "name": "Terracotta Tumbler",
     "category": "Bottles",
     "price": 24,
-    "description": "A small handleless tumbler with a raw terracotta rim and coral glaze interior.",
+    "description": "Placeholder copy — a small handleless tumbler with a raw terracotta rim and coral glaze interior.",
     "inStock": true,
-    "featured": false
+    "featured": false,
+    "image": "IMG_6280.png"
+  },
+  {
+    "id": "9",
+    "name": "Placeholder Piece 9",
+    "category": "Mugs",
+    "price": 30,
+    "description": "Placeholder copy — sample entry for web design testing, swap in real product details before launch.",
+    "inStock": true,
+    "featured": false,
+    "image": "IMG_6398.png"
+  },
+  {
+    "id": "10",
+    "name": "Placeholder Piece 10",
+    "category": "Dishes",
+    "price": 30,
+    "description": "Placeholder copy — sample entry for web design testing, swap in real product details before launch.",
+    "inStock": true,
+    "featured": false,
+    "image": "IMG_7128.png"
+  },
+  {
+    "id": "11",
+    "name": "Placeholder Piece 11",
+    "category": "Bottles",
+    "price": 30,
+    "description": "Placeholder copy — sample entry for web design testing, swap in real product details before launch.",
+    "inStock": true,
+    "featured": false,
+    "image": "IMG_5260.png"
   }
 ]

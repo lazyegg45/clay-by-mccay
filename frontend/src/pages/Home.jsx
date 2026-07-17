@@ -1,25 +1,31 @@
 import { Link } from 'react-router-dom';
 import products from '../data/products.json';
 import ProductCard from '../components/ProductCard';
+import heroImage from '../assets/images/hero-1.png';
 
 function Home() {
   const featured = products.filter((product) => product.featured).slice(0, 4);
 
   return (
     <>
-      <section className="hero container">
-        <h1>Handmade pottery, thrown in Nashville</h1>
-        <p>
-          Clay by McCay is a small-batch pottery studio. Every mug, bowl, and vase is
-          hand-thrown, glazed, and released in limited drops.
-        </p>
-        <div className="hero__actions">
-          <Link to="/shop" className="btn btn-primary">
-            Shop the Drop
-          </Link>
-          <Link to="/about" className="btn btn-outline">
-            Our Story
-          </Link>
+      <section className="hero hero--split container">
+        <div className="hero__text">
+          <h1>Handmade pottery, thrown in Nashville</h1>
+          <p>
+            Clay by McCay is a small-batch pottery studio. Every mug, bowl, and vase is
+            hand-thrown, glazed, and released in limited drops.
+          </p>
+          <div className="hero__actions">
+            <Link to="/shop" className="btn btn-primary">
+              Shop the Drop
+            </Link>
+            <Link to="/about" className="btn btn-outline">
+              Our Story
+            </Link>
+          </div>
+        </div>
+        <div className="hero__visual">
+          <img src={heroImage} alt="Handmade pottery by Clay by McCay" />
         </div>
       </section>
 

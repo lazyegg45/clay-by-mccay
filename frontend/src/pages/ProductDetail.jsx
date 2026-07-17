@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import products from '../data/products.json';
 import { useCart } from '../context/CartContext';
+import { getProductImage } from '../utils/productImages';
 
 function ProductDetail() {
   const { id } = useParams();
@@ -34,7 +35,7 @@ function ProductDetail() {
   return (
     <div className="container product-detail">
       <div className="product-detail__image">
-        <span>{product.name}</span>
+        <img src={getProductImage(product.image)} alt={product.name} />
       </div>
 
       <div>

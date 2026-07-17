@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../assets/images/clay-by-mccay-logo.png';
 
 function Footer() {
   return (
@@ -6,7 +7,7 @@ function Footer() {
       <div className="container site-footer__inner">
         <div className="site-footer__cols">
           <div className="site-footer__col">
-            <p className="site-footer__brand">Clay by McCay</p>
+            <img className="site-footer__logo" src={logo} alt="Clay by McCay" />
             <p>Handmade pottery, thrown and glazed in Nashville, TN.</p>
           </div>
 

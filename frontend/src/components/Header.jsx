@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
+import logo from '../assets/images/clay-by-mccay-logo.png';
 
 const navLinks = [
   { to: '/shop', label: 'Shop' },
@@ -16,7 +17,7 @@ function Header() {
     <header className="site-header">
       <div className="container site-header__bar">
         <NavLink to="/" className="site-header__logo" onClick={() => setMenuOpen(false)}>
-          Clay by McCay
+          <img src={logo} alt="Clay by McCay" />
         </NavLink>
 
         <nav className="site-header__nav">

@@ -29,7 +29,14 @@ export function CartProvider({ children }) {
       }
       return [
         ...prev,
-        { id: product.id, name: product.name, price: product.price, category: product.category, qty },
+        {
+          id: product.id,
+          name: product.name,
+          price: product.price,
+          category: product.category,
+          image: product.image,
+          qty,
+        },
       ];
     });
   };
