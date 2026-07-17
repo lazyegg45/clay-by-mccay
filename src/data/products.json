@@ -1,14 +1,74 @@
 [
   {
     "id": "1",
-    "name": "Ceramic Mug",
-    "price": 24,
-    "description": "Handcrafted ceramic mug"
+    "name": "Coral Ceramic Mug",
+    "category": "Mugs",
+    "price": 28,
+    "description": "A hand-thrown stoneware mug glazed in a warm coral-pink finish. Holds 12oz, microwave and dishwasher safe.",
+    "inStock": true,
+    "featured": true
   },
   {
     "id": "2",
-    "name": "Serving Bowl",
-    "price": 36,
-    "description": "Stoneware serving bowl"
+    "name": "Cypress Serving Bowl",
+    "category": "Dishes",
+    "price": 42,
+    "description": "A wide stoneware serving bowl in a deep cypress green glaze, perfect for salads or fruit.",
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "3",
+    "name": "Vanilla Bud Vase",
+    "category": "Bottles",
+    "price": 32,
+    "description": "A slim bud vase in a warm vanilla glaze, hand-thrown and finished with a satin surface.",
+    "inStock": false,
+    "featured": true
+  },
+  {
+    "id": "4",
+    "name": "Moss Speckled Mug",
+    "category": "Mugs",
+    "price": 28,
+    "description": "A speckled stoneware mug in muted moss, with a comfortable pulled handle.",
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "5",
+    "name": "Blush Pasta Bowl",
+    "category": "Dishes",
+    "price": 34,
+    "description": "A deep pasta bowl with a soft blush interior and natural stoneware exterior.",
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "6",
+    "name": "Ink Carafe",
+    "category": "Bottles",
+    "price": 48,
+    "description": "A tall water carafe in a near-black ink glaze with a hand-carved pouring lip.",
+    "inStock": false,
+    "featured": false
+  },
+  {
+    "id": "7",
+    "name": "Cream Side Plate Set",
+    "category": "Dishes",
+    "price": 38,
+    "description": "Set of two side plates in an unglazed cream finish, great for pairing with any drop.",
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "8",
+    "name": "Terracotta Tumbler",
+    "category": "Bottles",
+    "price": 24,
+    "description": "A small handleless tumbler with a raw terracotta rim and coral glaze interior.",
+    "inStock": true,
+    "featured": false
   }
 ]
