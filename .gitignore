@@ -1,8 +1,24 @@
+# Dependencies (matches frontend/node_modules and backend/node_modules)
 node_modules
-.DS_Store
+
+# Build output
 dist
-.vite
+build
+
+# Environment variables
 .env
 .env.local
 .env.*.local
+
+# Vite
+.vite
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# Test coverage
 coverage

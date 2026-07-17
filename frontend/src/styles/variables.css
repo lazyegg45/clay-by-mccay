@@ -1,0 +1,19 @@
+:root {
+  --color-bg: #FBF9F4;
+  --color-primary: #ED5534;
+  --color-primary-dark: #D6431F;
+  --color-blush: #F3CACC;
+  --color-cypress: #555A41;
+  --color-moss: #A19D61;
+  --color-vanilla: #F1E1C6;
+  --color-ink: #3A342C;
+  --color-white: #FFFFFF;
+
+  --font-header: 'Fredoka', system-ui, sans-serif;
+  --font-body: 'Karla', system-ui, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --shadow-soft: 0 8px 24px rgba(58, 52, 44, 0.08);
+}
